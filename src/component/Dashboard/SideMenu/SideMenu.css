@@ -1,0 +1,38 @@
+.side_menu {
+    z-index: 2;
+    position: relative;
+    text-align: center;
+}
+
+/* Logo */
+
+.side_menu .logo {
+    padding: 10px;
+    width: 100%;
+    background-color: var(--main-color);
+}
+
+.side_menu .logo button {
+    color: #fff ;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+    font-weight: 400;
+    border: none;
+    white-space: nowrap;
+}
+
+/* Menu List */
+
+ .side_menu .menu_list>li a {
+    width: 100%;
+    font-size: 3em;
+    background: transparent;
+    color: #D1D0D8;
+    border-radius: unset;
+}
+ .side_menu .menu_list>li a:hover {
+    font-size: 3em;
+    background: #DEE6F9;
+    color: var( --sec-color);
+    border-right: 2px solid var(--main-color);
+}

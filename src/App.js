@@ -1,10 +1,13 @@
 import React from 'react'
+import DashboardContainer from './container/Dashboard/DashboardContainer';
 
+//style
+import './App.css'
 const App = () => {
   return (
-    <div>
-      <h2>app</h2>
-    </div>
+    <>
+      <DashboardContainer />
+    </>
   )
 }
 

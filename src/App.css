@@ -1,0 +1,52 @@
+/* Variables */
+:root {
+    --title-color: #9295B9;
+    --main-color: #6A7AD8;
+    --dark-color: #555555;
+    --light-color: #f5f5f5;
+    --sec-color: #7A8FDE;
+    --font-size: 14px;
+  }
+  
+  /* Langouage */
+  html:lang(ar) {
+    direction: rtl;
+  }
+  /* Global */
+  * {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body, #Application {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100vh;
+    font-size: var(--font-size);
+    background-color: #FFFFFF;
+  }
+  
+  a {
+    color: var(--main-color) ;
+    text-decoration: none !important;
+  }
+  
+  a:hover {
+    color: var(--sec-color) ;
+  }
+  
+  ul {
+    list-style: none !important;
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  
+  input, select, textarea, button,
+  input:focus, select:focus, textarea:focus, button:focus,
+  input:hover, select:hover, textarea:hover, button:hover {
+    box-shadow: none !important;
+    border-color: inherit !important;
+    outline: none !important;
+  }

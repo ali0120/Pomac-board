@@ -1,0 +1,59 @@
+.header--component {
+    padding: .5em 2em;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #FFFFFF;
+}
+
+.header--search {
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+
+.header--search svg {
+    font-size: 2.2em;
+    color: #D1D0D8;
+}
+
+.header--search ::placeholder {
+    color: #D1D0D8;
+}
+
+.header--search input {
+    width: 100%;
+    background: transparent;
+    border: none;
+    padding: 2px;
+    border-radius: 5px;
+}
+
+.header--info {
+    display: flex;
+    gap: 1em;
+}
+
+.header--info .info--name h3 {
+    white-space: nowrap;
+    font-size: 16px;
+    margin: 2px;
+    color: var(--title-color);
+}
+
+.header--info .info--name p {
+    text-align: right;
+    color: #CDCEE2;
+}
+
+.header--info .info--pic {
+    width: 100%;
+}
+
+.header--info .info--pic img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+}
